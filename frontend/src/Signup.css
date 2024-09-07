@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */ /* Consider moving this to body or main container */
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    top: 50px;
+    display: flex;
+    height: 90vh;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white; /* Ensure this is visible */
+}
+
+.heading {
+    width: 100%; /* Specify width with a unit */
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.input input {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+}
+
+.input button {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer; /* Add pointer cursor for buttons */
+}
+
+.input button:hover {
+    background-color: grey; /* Add hover effect for better UX */
+}
